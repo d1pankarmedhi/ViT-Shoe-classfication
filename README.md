@@ -1,6 +1,11 @@
-# ViT-vision-transformer Shoe classification
+<div align="center">
+<h1>ViT - Vision Transformer Shoe classification</h1>
 
 ViT paper implementation in PyTorch for classification of shoe brands.
+
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+</div>
 
 ## Classification of Shoe brand using ViT 🪙
 
@@ -21,7 +26,7 @@ A complete model summary of the Vision Transformer with around `86M` parameters.
 
 Due to data and hardware limitations, the original implementation model did not perform well. To solve this issue, the VIT model weights from pytorch was used.
 
-Fine tuned on [VIT_B_16](https://pytorch.org/vision/main/models/generated/torchvision.models.vit_b_16.html#vit-b-16) weights on the shoe dataset.
+[VIT_B_16](https://pytorch.org/vision/main/models/generated/torchvision.models.vit_b_16.html#vit-b-16) weights are used for transfer learning.
 
 <div>
 <img src="https://github.com/d1pankarmedhi/ViT-vision-transformer/assets/136924835/21dde5ed-e9db-46de-9ec5-101854ed24d9">
