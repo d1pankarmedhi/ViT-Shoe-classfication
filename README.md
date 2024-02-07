@@ -8,7 +8,7 @@ There are total 3 brand shoe images in the dataset and the object is to classify
 
 ## Final result looks like this 🧑‍🍳
 
-<div style="display: flex;">
+<div style="display: flex; justify-content: center;">
     <div style="display: flex; flex-direction: column;">
         <img src="https://github.com/d1pankarmedhi/ViT-vision-transformer/assets/136924835/e8de7c64-3547-4698-a3fa-1391991a5f8b" width=250 alt="Image 1" style="margin-bottom: 10px;">
         <img src="https://github.com/d1pankarmedhi/ViT-vision-transformer/assets/136924835/4a95bb01-5207-43a8-ac82-8fe55ad15f25" width=250 alt="Image 2">
