@@ -4,7 +4,7 @@ ViT paper implementation in PyTorch for classification of shoe brands.
 
 ## Classification of Shoe brand using ViT 🪙
 
-There are total 3 brand shoe images in the dataset and the object is to classify them as `Adidas` , `Converse` or `Nike`.
+There are total 3 brand shoe images in the dataset and the object is to classify them as `Adidas` , `Converse` or `Nike` based on the input image.
 
 ## Final result looks like this 🧑‍🍳
 
@@ -15,9 +15,13 @@ There are total 3 brand shoe images in the dataset and the object is to classify
     </div>
 </div>
 
-## Model Summary
+## Model Summary 🏋️
 
 A complete model summary of the Vision Transformer with around `86M` parameters. This implementation is based on the **ViT-Base** model.
+
+Due to data and hardware limitations, the original implementation model did not perform well. To solve this issue, the VIT model weights from pytorch was used.
+
+Fine tuned on [VIT_B_16](https://pytorch.org/vision/main/models/generated/torchvision.models.vit_b_16.html#vit-b-16) weights on the shoe dataset.
 
 <div>
 <img src="https://github.com/d1pankarmedhi/ViT-vision-transformer/assets/136924835/21dde5ed-e9db-46de-9ec5-101854ed24d9">
